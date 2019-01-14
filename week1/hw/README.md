@@ -1,7 +1,7 @@
 # Chinmay Homework 1 submission
 
 Running analysis.py produces an output like:
-'''
+```
 Using 'Zmay_chr_9-P-94283818.fa' as observational fasta data
 lines to get through: 1
 
@@ -85,7 +85,7 @@ Random 10-mers (9183 checks):
  GCGGTGAGAA  |   0.0000009536743     |   0.0000000000000
  TGCGATTAAG  |   0.0000009536743     |   0.0000000000000
  TCAGTCACAG  |   0.0000009536743     |   0.0000000000000
- '''
+ ```
  
  interpreting this result:
  The left column is the K-mer sequence
