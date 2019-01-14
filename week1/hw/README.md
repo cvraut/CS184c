@@ -92,4 +92,8 @@ Random 10-mers (9183 checks):
  - The middle column is the theoretical probability of occurrence in a sequence of k nucleotides. The probability distribution for the bases was assumed to be normal
  - The rightmost column is the observed probability of the k-mer using the file specified at the top.
  
- *The matches found include overlapping matches. For example searching for "AA" in "AAA" produces 2 matches.
+ *The matches found include overlapping matches. For example searching for "AA" in "AAA" produces 2 matches.*
+ 
+## my analysis of the results:
+I was sure that the nucleotides in a strand a DNA don't follow a uniform random distribution and the observational data kinda proves it. Some K-mers like 'AA' have 1.5 the odds of occurrence in the observed genome compared to the theoretical probability.
+I believe for that case this was due to the existence and presence of the TATA box which act as start points for DNA transcription as 'TT' and 'TA' seem to occur often as well. Pretty interesting to see the differences in theoretical and observed probability.
