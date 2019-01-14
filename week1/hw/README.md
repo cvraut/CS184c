@@ -87,9 +87,9 @@ Random 10-mers (9183 checks):
  TCAGTCACAG  |   0.0000009536743     |   0.0000000000000
  ```
  
- interpreting this result:
- The left column is the K-mer sequence
- The middle column is the theoretical probability of occurrence in a sequence of k nucleotides. The probability distribution for the bases was assumed to be normal
- The rightmost column is the observed probability of the k-mer using the file specified at the top.
+## interpreting this result:
+ - The left column is the K-mer sequence
+ - The middle column is the theoretical probability of occurrence in a sequence of k nucleotides. The probability distribution for the bases was assumed to be normal
+ - The rightmost column is the observed probability of the k-mer using the file specified at the top.
  
- The matches found include overlapping matches. For example searching for "AA" in "AAA" produces 2 matches.
+ *The matches found include overlapping matches. For example searching for "AA" in "AAA" produces 2 matches.
