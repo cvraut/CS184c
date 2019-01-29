@@ -9,7 +9,7 @@ def sanitize(s):
         s = s.replace(c,'')
     return s
 
-fasta_file_name = input("Please specify the fasta file to prune: ")
+fasta_file_name = input("Please specify the fasta file to prune: ").strip()
 fasta_file = open(fasta_file_name)
 contigs_to_save = set()
 
