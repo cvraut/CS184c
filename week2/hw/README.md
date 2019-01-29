@@ -1,4 +1,4 @@
-I have produced 2 scripts to manipulate & use multiline fasta files.
+# I have produced 2 scripts to manipulate & use multiline fasta files.
 
 mult2single.py is a simple light script to convert a multiline fasta file to a single line fasta file.
 
