@@ -1,0 +1,80 @@
+Chinmay Raut (93345289)
+Comparison between AUGUSTUS and GeneMark for genes found in Staphylococcus aureus
+
+Remarks:
+As the 3 genes I selected in my haste to complete the assignment were all simple 
+prokaryotic genes, there isn't much to comment on the output. The genes were 
+correctly identified by both Augustus and GeneMark. From what I know about both 
+programs this is expected behavior as GeneMark was designed specifically in 
+detecting genes in prokaryotic genomes whereas Augustus was built for eukaryotic 
+genomes; however, it also predicts well for prokaryotic genomes. The major 
+difference in the output is that the Augustus program also identifies the different 
+parts of the gene. This makes sense because knowing how Augustus works, it will 
+identify the parts 1st then stitch the parts together to construct the gene.
+
+
+
+
+Gene 1: qacB antiseptic efflux protein QacB [ Staphylococcus aureus ]
+Augustus:
+# ----- prediction on sequence number 1 (length = 1545, name = NC_010419.1:19658-21202) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+NC_010419.1:19658-21202	AUGUSTUS	gene	1	1545	0.99	+	.	g1
+NC_010419.1:19658-21202	AUGUSTUS	transcript	1	1545	0.99	+	.	g1.t1
+NC_010419.1:19658-21202	AUGUSTUS	start_codon	1	3	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+NC_010419.1:19658-21202	AUGUSTUS	single	1	1545	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+NC_010419.1:19658-21202	AUGUSTUS	CDS	1	1545	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+NC_010419.1:19658-21202	AUGUSTUS	stop_codon	1543	1545	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+GeneMark:
+FASTA definition line: NC_010419.1:19658-21202 Staphylococcus aureus plasmid pTZ2162, complete sequence
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+    1        +           1        1545         1545        1
+
+Gene 2: pETB_p02 ORF2~epidermal cell differentiation inhibitor C of Staphylococcus aureus [ Staphylococcus aureus ]
+Augustus:
+# ----- prediction on sequence number 1 (length = 744, name = NC_003265.1:c2079-1336) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+NC_003265.1:c2079-1336	AUGUSTUS	gene	1	744	1	+	.	g1
+NC_003265.1:c2079-1336	AUGUSTUS	transcript	1	744	1	+	.	g1.t1
+NC_003265.1:c2079-1336	AUGUSTUS	start_codon	1	3	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+NC_003265.1:c2079-1336	AUGUSTUS	single	1	744	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+NC_003265.1:c2079-1336	AUGUSTUS	CDS	1	744	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+NC_003265.1:c2079-1336	AUGUSTUS	stop_codon	742	744	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+GeneMark:
+FASTA definition line: NC_003265.1:c2079-1336 Staphylococcus aureus TY4 plasmid pETB, complete sequence
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+    1        +           1         744          744        1
+Gene 3: pETB_p29 ORF29~similar to Rep-C terminal of Staphylococcus aureus pKH4 [ Staphylococcus aureus ]
+Augustus:
+# ----- prediction on sequence number 1 (length = 207, name = NC_003265.1:19709-19915) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+NC_003265.1:19709-19915	AUGUSTUS	gene	1	207	0.58	+	.	g1
+NC_003265.1:19709-19915	AUGUSTUS	transcript	1	207	0.58	+	.	g1.t1
+NC_003265.1:19709-19915	AUGUSTUS	start_codon	1	3	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+NC_003265.1:19709-19915	AUGUSTUS	single	1	207	0.58	+	0	transcript_id "g1.t1"; gene_id "g1";
+NC_003265.1:19709-19915	AUGUSTUS	CDS	1	207	0.58	+	0	transcript_id "g1.t1"; gene_id "g1";
+NC_003265.1:19709-19915	AUGUSTUS	stop_codon	205	207	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+GeneMark:
+FASTA definition line: NC_003265.1:19709-19915 Staphylococcus aureus TY4 plasmid pETB, complete sequence
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+    1        +           1         207          207        1
+
+
