@@ -20,13 +20,13 @@ original seq1='TGTTACGG'
 original seq2='GGTTGACTA'
 seq1 match portion ='G-TTA-C'
 seq2 match portion ='GGTTGAC'
-     '* **. *'
+                    '* **. *'
 
 original seq1='GACTTAC'
 original seq2='CGTGAATTCAT'
 seq1 match portion ='G--ACTT-A'
 seq2 match portion ='GTGAATTCA'
-     '*  *.** *'
+                    '*  *.** *'
 ```
 
 '*' - match
